@@ -2,45 +2,56 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer p-10 bg-[#E9E4E0] text-base-content">
-      <div>
-        
-      </div>
+        <div>
+          <a href="http://">
+            <img
+              src="https://24carrots.com/wp-content/themes/24carrots/img/24carrots.svg"
+              alt=""
+            />
+          </a>
+
+          <p className="text-2xl">
+            The event specialists at our Southern <br /> California headquarters
+            are available to <br /> help with every aspect of your event.
+          </p>
+
+          <hr />
+          <h1 className="font-semibold">CALL US 714.942.6000 • 800.717.1545</h1>
+          <h1 className="font-semibold">EMAIL US info@24carrots.com</h1>
+          <h1 className="font-semibold">
+            FIND US150 Baker Street East, Costa Mesa, CA 92626
+          </h1>
+        </div>
         <nav>
-          <h6 className="footer-title">About</h6>
-          <a className="link link-hover">About 24 Carrots</a>
-          <a className="link link-hover">Meet the Team</a>
-          <a className="link link-hover">Awards & Press</a>
-          <a className="link link-hover">Blog</a>
+          <h6 className="text-2xl">About</h6>
+          <a className="link link-hover font-serif text-sm">About 24 Carrots</a>
+          <a className="link link-hover font-serif text-sm">Meet the Team</a>
+          <a className="link link-hover font-serif text-sm">Awards & Press</a>
+          <a className="link link-hover font-serif text-sm">Blog</a>
         </nav>
         <nav>
-          <h6 className="footer-title">Services</h6>
-          <a className="link link-hover">Gourmet Catering</a>
-          <a className="link link-hover">Bar Service</a>
-          <a className="link link-hover">Staffing</a>
-          <a className="link link-hover">Production</a>
+          <h6 className="text-2xl font-sans">Services</h6>
+          <a className="link link-hover font-serif text-sm">Gourmet Catering</a>
+          <a className="link link-hover font-serif text-sm">Bar Service</a>
+          <a className="link link-hover font-serif text-sm">Staffing</a>
+          <a className="link link-hover font-serif text-sm">Production</a>
         </nav>
         <nav>
-          <h6 className="footer-title">Events</h6>
-          <a className="link link-hover">Weddings</a>
-          <a className="link link-hover">Corporate</a>
-          <a className="link link-hover">Social</a>
-          <a className="link link-hover">Gallery</a>
+          <h6 className="text-2xl font-sans">Events</h6>
+          <a className="link link-hover font-serif text-sm">Weddings</a>
+          <a className="link link-hover font-serif text-sm">Corporate</a>
+          <a className="link link-hover font-serif text-sm">Social</a>
+          <a className="link link-hover font-serif text-sm">Gallery</a>
         </nav>
         <nav>
-          <h6 className="footer-title">Venues</h6>
-          <a className="link link-hover">Careers</a>
-          <a className="link link-hover">Contact</a>
-        </nav>
-        <nav>
-          <h6 className="footer-title">Follow Us</h6>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
+          <h6 className="text-2xl font-sans">Venues</h6>
+          <a className="link link-hover font-serif text-sm">Careers</a>
+          <a className="link link-hover font-serif text-sm">Contact</a>
         </nav>
       </footer>
-      
-        <hr className="border-1 border-current" />
-     
+
+      <hr className="border-1 border-current" />
+
       <footer className="footer px-10 py-4 border-t bg-[#E9E4E0] text-base-content border-base-300">
         <aside className="items-center grid-flow-col">
           <svg
@@ -54,12 +65,12 @@ const Footer = () => {
           >
             <path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path>
           </svg>
-          <p>
-          © 2023 24 Carrot Catering & Events. All rights reserved.
-          </p>
+          <p>© 2023 24 Carrot Catering & Events. All rights reserved.</p>
         </aside>
         <nav className="md:place-self-center md:justify-self-end">
           <div className="grid grid-flow-col gap-4">
+            {" "}
+            Follow Us on
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
